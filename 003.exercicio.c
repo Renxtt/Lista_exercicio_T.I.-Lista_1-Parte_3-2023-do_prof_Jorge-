@@ -8,16 +8,16 @@ main(void){
 	
 	int n1, n2;
 	
-	printf("insirá um número: ");
+	printf("insirÃ¡ um nÃºmero: ");
 	scanf("%d", &n1);
 	
-	printf("insirá um segundo número: ");
+	printf("insirÃ¡ um segundo nÃºmero: ");
 	scanf("%d", &n2);
 	
 	if(n1>n2){
-		printf("%d é maior que %d", n1, n2);
+		printf("%d Ã© maior que %d", n1, n2);
 	}else{
-		printf("%d é maior que %d", n2, n1);
+		printf("%d Ã© maior que %d", n2, n1);
 	}
 	return 0;
 }
