@@ -68,7 +68,7 @@ int main(void){
 		strcpy(diaf, "Segunda-Feira");
 		strcpy(diaf2, "Manday");		
 	}else if(dian==2){
-		strcpy(diaf, "TerÁa-Feira");
+		strcpy(diaf, "Ter√ßa-Feira");
 		strcpy(diaf2, "Tuesday");		
 	}else if(dian==3){
 		strcpy(diaf, "Quarta-Feira");
@@ -80,7 +80,7 @@ int main(void){
 		strcpy(diaf, "Sexta-Feira");
 		strcpy(diaf2, "Friday");		
 	}else if(dian==6){
-		strcpy(diaf, "S·bado");
+		strcpy(diaf, "S√°bado");
 		strcpy(diaf2, "Saturday");		
 	}else if(dian!=0||dian!=1||dian!=2||dian!=3||dian!=4||dian!=5||dian!=6){
 		printf("Deu erro");
@@ -125,7 +125,7 @@ int main(void){
 		strcpy(mesf, "Fevereiro");
 		strcpy(mesf2, "February");		
 	}if(mesn==3){
-		strcpy(mesf, "MarÁo");
+		strcpy(mesf, "Mar√ßo");
 		strcpy(mesf2, "Mars");		
 	}if(mesn==4){
 		strcpy(mesf, "Abril");
@@ -155,8 +155,8 @@ int main(void){
 		strcpy(mesf, "Dezembro");
 		strcpy(mesf2, "December");		
 	}if(mesn<=0&&mesn>=11){
-		strcpy(mesf, "MÍs Inesistente");
-		strcpy(mesf2, "MÍs Inesistente");
+		strcpy(mesf, "M√™s Inesistente");
+		strcpy(mesf2, "M√™s Inesistente");
 	}
 
 //	printf("\n%s", mesf);
@@ -167,7 +167,7 @@ int main(void){
 //iniciar a maquina
 	//printf("%d", dian);
 	
-	printf("\n\n                   Digite o seu nome com atÈ 10 caracteres:");
+	printf("\n\n                   Digite o seu nome com at√© 10 caracteres:");
 	fgets(nome_do_participante,10,stdin);
 	
 	
@@ -221,17 +221,17 @@ int main(void){
 	Sleep(50);
 	printf("\n||                                                                          ||");
 	Sleep(50);
-	printf("\n||                        Ol· Eu sou um caixa Eletronico                    ||");
+	printf("\n||                        Ol√° Eu sou um caixa Eletronico                    ||");
 	Sleep(50);
 	printf("\n||                               feito por: Rafael                          ||");
 	Sleep(50);
-	if(strcmp(diaf, "S·bado")==0){
+	if(strcmp(diaf, "S√°bado")==0){
 		printf("\n||                                                    Dia: %s           ||", diaf);
 		printf("\n||                                                    Day: %s         ||", diaf2);			
 	}else if(strcmp(diaf, "Segunda-Feira")==0){
 		printf("\n||                                                    Dia: %s    ||", diaf);
 		printf("\n||                                                    Day: %s           ||", diaf2);
-	}else if(strcmp(diaf, "TerÁa-Feira")==0){
+	}else if(strcmp(diaf, "Ter√ßa-Feira")==0){
 		printf("\n||                                                    Dia: %s      ||", diaf);
 		printf("\n||                                                    Day: %s          ||", diaf2);
 	}else if(strcmp(diaf, "Quarta-Feira")==0){
@@ -253,35 +253,35 @@ int main(void){
 	Sleep(50);
 	printf("\n||                                                                          ||");	
 	Sleep(50);
-	if(strcmp(mesf, "MarÁo")==0){
-		printf("\n||                                                    MÍs: %s            ||", mesf);
+	if(strcmp(mesf, "Mar√ßo")==0){
+		printf("\n||                                                    M√™s: %s            ||", mesf);
 		printf("\n||                                                    Month: %s           ||", mesf2);			
 	}else if(strcmp(mesf, "Abril")==0){
-		printf("\n||                                                    MÍs: %s            ||", mesf);
+		printf("\n||                                                    M√™s: %s            ||", mesf);
 		printf("\n||                                                    Month: %s          ||", mesf2);					
 	}else if(strcmp(mesf, "Maio")==0){
-		printf("\n||                                                    MÍs: %s             ||", mesf);
+		printf("\n||                                                    M√™s: %s             ||", mesf);
 		printf("\n||                                                    Month: %s            ||", mesf2);					
 	}else if(strcmp(mesf, "Junho")==0){
-		printf("\n||                                                    MÍs: %s            ||", mesf);
+		printf("\n||                                                    M√™s: %s            ||", mesf);
 		printf("\n||                                                    Month: %s           ||", mesf2);						
 	}else if(strcmp(mesf, "Julho")==0){
-		printf("\n||                                                    MÍs: %s            ||", mesf);
+		printf("\n||                                                    M√™s: %s            ||", mesf);
 		printf("\n||                                                    Month: %s           ||", mesf2);							
 	}else if(strcmp(mesf, "Agosto")==0){
-		printf("\n||                                                    MÍs: %s           ||", mesf);
+		printf("\n||                                                    M√™s: %s           ||", mesf);
 		printf("\n||                                                    Month: %s         ||", mesf2);						
 	}else if(strcmp(mesf, "Setembro")==0){
-		printf("\n||                                                    MÍs: %s         ||", mesf);
+		printf("\n||                                                    M√™s: %s         ||", mesf);
 		printf("\n||                                                    Month: %s      ||", mesf2);						
 	}else if(strcmp(mesf, "Outubro")==0){
-		printf("\n||                                                    MÍs: %s          ||", mesf);
+		printf("\n||                                                    M√™s: %s          ||", mesf);
 		printf("\n||                                                    Month: %s        ||", mesf2);						
 	}else if(strcmp(mesf, "Novembro")==0){
-		printf("\n||                                                    MÍs: %s         ||", mesf);
+		printf("\n||                                                    M√™s: %s         ||", mesf);
 		printf("\n||                                                    Month: %s       ||", mesf2);							
 	}else if(strcmp(mesf, "Dezembro")==0){
-		printf("\n||                                                    MÍs: %s         ||", mesf);
+		printf("\n||                                                    M√™s: %s         ||", mesf);
 		printf("\n||                                                    Month: %s       ||", mesf2);									
 	}else{
 		printf("Deu errado a parte dos meses");
@@ -318,24 +318,24 @@ int main(void){
 	if(input=='\n'){
 		if((strcmp(diaf, "Domingo")==0&&hora>=12&&min>=00&&sec>=00)){
 			printf("\n\n\n----------------------------------------------------------------------------------------------------");
-			printf("\n||Sinto muito mas por hoje ser %s e j· passado do meio dia n„o ser· possivel fazer a retirada||", diaf);
+			printf("\n||Sinto muito mas por hoje ser %s e j√° passado do meio dia n√£o ser√° possivel fazer a retirada||", diaf);
 			printf("\n----------------------------------------------------------------------------------------------------");
-			printf("\n\n VoÁÍ quer continuar mesmo sendo final de semana?(sim ou n„o):");
+			printf("\n\n Vo√ß√™ quer continuar mesmo sendo final de semana?(sim ou n√£o):");
 			fgets(pergunta_de_finalizacao, 40, stdin);
 			if(strcmp(pergunta_de_finalizacao, "Sim")==0||strcmp(pergunta_de_finalizacao, "sim")==0){
 				printf("Entendo");
-			}else if(strcmp(pergunta_de_finalizacao, "n„o")==0||strcmp(pergunta_de_finalizacao, "n„o")==0){
+			}else if(strcmp(pergunta_de_finalizacao, "n√£o")==0||strcmp(pergunta_de_finalizacao, "n√£o")==0){
 				abort();
 			}
-		}else if((strcmp(diaf, "S·bado")==0&&hora>=15&&min>=00&&sec>=00)){
+		}else if((strcmp(diaf, "S√°bado")==0&&hora>=15&&min>=00&&sec>=00)){
 			printf("\n\n\n------------------------------------------------------------------------------------------------------------");
-			printf("\n||Sinto muito mas por hoje ser %s e j· passado das 15 Horas n„o ser· possivel fazer a retirada de dinheiro||", diaf);
+			printf("\n||Sinto muito mas por hoje ser %s e j√° passado das 15 Horas n√£o ser√° possivel fazer a retirada de dinheiro||", diaf);
 			printf("\n------------------------------------------------------------------------------------------------------------\n\n\n");
-			printf("\n\n VoÁÍ quer continuar mesmo sendo final de semana?(sim ou n„o):");
+			printf("\n\n Vo√ß√™ quer continuar mesmo sendo final de semana?(sim ou n√£o):");
 			fgets(pergunta_de_finalizacao, 40, stdin);
 			if(strcmp(pergunta_de_finalizacao, "Sim")==0||strcmp(pergunta_de_finalizacao, "sim")==0){
 				printf("Entendo");
-			}else if(strcmp(pergunta_de_finalizacao, "N„o")==0||strcmp(pergunta_de_finalizacao, "n„o")==0){
+			}else if(strcmp(pergunta_de_finalizacao, "N√£o")==0||strcmp(pergunta_de_finalizacao, "n√£o")==0){
 				abort();
 			}		
 		}
@@ -346,7 +346,7 @@ int main(void){
 			Sleep(50);		
 			printf("\n||                                                                          ||");
 			Sleep(50);
-			printf("\n||                Insira o seu proposito nas opÁıes abaixo:                 ||");
+			printf("\n||                Insira o seu proposito nas op√ß√µes abaixo:                 ||");
 			Sleep(50);
 			printf("\n||                                                                          ||");
 			Sleep(50);
@@ -389,7 +389,7 @@ int main(void){
 			printf("\n______________________________________________________________________________");	
 		
 			printf("\n\n\n------------------------------------------------------------------------------");
-			printf("\n||                    Insir· o n˙mero da escolha de sua opÁ„o            ||\n\t\t\t\t\t");
+			printf("\n||                    Insir√° o n√∫mero da escolha de sua op√ß√£o            ||\n\t\t\t\t\t");
 			scanf("%d", &opcao);
 			printf("------------------------------------------------------------------------------");
 			Sleep(2000);
@@ -445,7 +445,7 @@ int main(void){
 				printf("\n______________________________________________________________________________");
 		
 				printf("\n\n\n------------------------------------------------------------------------------");
-				printf("\n||                    Insir· o n˙mero da escolha de sua opÁ„o            ||\n\t\t\t\t\t");
+				printf("\n||                    Insir√° o n√∫mero da escolha de sua op√ß√£o            ||\n\t\t\t\t\t");
 				scanf("%d", &opcao_de_retirada);
 				printf("------------------------------------------------------------------------------");
 				Sleep(2000);
@@ -502,7 +502,7 @@ int main(void){
 						printf("\n______________________________________________________________________________");
 						
 						printf("\n\n\n------------------------------------------------------------------------------");
-						printf("\n||                    Insir· o n˙mero da escolha de sua opÁ„o            ||\n\t\t\t\t\t");
+						printf("\n||                    Insir√° o n√∫mero da escolha de sua op√ß√£o            ||\n\t\t\t\t\t");
 						scanf("%d", &opcao_de_retirada_2);
 						printf("------------------------------------------------------------------------------");
 						Sleep(2000);						
@@ -519,7 +519,7 @@ int main(void){
 								Sleep(50);
 								printf("\n||                Insira o seu CPF para retirar o seu Dinheiro:             ||");
 								Sleep(50);
-								printf("\n||                          A acid È a senha inverÁa                        ||");
+								printf("\n||                          A acid √© a senha inver√ßa                        ||");
 								Sleep(50);
 								printf("\n||                                                                          ||");
 								Sleep(50);
@@ -528,7 +528,7 @@ int main(void){
 								printf("\n||                        Digite o seu PIN de 4 digitos");
 								scanf("%d", &tentativa_senha);
 								Sleep(50);
-								printf("\n||                Digite o valor que ir· subtrair do valor total            || ");
+								printf("\n||                Digite o valor que ir√° subtrair do valor total            || ");
 								Sleep(50);
 
 
@@ -538,36 +538,36 @@ int main(void){
 									printf("\n||                     Sua conta foi achada com sucesso                     ||");
 									Sleep(50);
 									if(randomico_base_dindin<=9){
-									printf("\n||                             Seu Saldo È: %d R$                            ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                            ||", randomico_base_dindin);
 									Sleep(50);
 									}else if(randomico_base_dindin<=99&&randomico_base_dindin    >=10){
-									printf("\n||                             Seu Saldo È: %d R$                           ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                           ||", randomico_base_dindin);
 									Sleep(50);
 										
 									}else if(randomico_base_dindin<=999&&randomico_base_dindin   >=100){
-									printf("\n||                             Seu Saldo È: %d R$                          ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                          ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}else if(randomico_base_dindin<=9999&&randomico_base_dindin  >=1000){
-									printf("\n||                             Seu Saldo È: %d R$                         ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                         ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}else if(randomico_base_dindin<=99999&&randomico_base_dindin >=10000){
-									printf("\n||                             Seu Saldo È: %d R$                        ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                        ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}else if(randomico_base_dindin<=999999&&randomico_base_dindin>=100000){
-									printf("\n||                             Seu Saldo È: %d R$                       ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                       ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}else if(randomico_base_dindin<=9999999&&randomico_base_dindin>=1000000){
-									printf("\n||                             Seu Saldo È: %d R$                      ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                      ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}
 									printf("\n||                                                                          ||");
 									Sleep(50);
-									printf("\n||                Digite o valor que ir· subtrair do valor total:\n\t\t\t\t\t");
+									printf("\n||                Digite o valor que ir√° subtrair do valor total:\n\t\t\t\t\t");
 									scanf("%d", &sub_de_dindin);
 									Sleep(50);
 									
@@ -577,30 +577,30 @@ int main(void){
 									printf("\n||                                                                          ||");
 									Sleep(50);
 									if(randomico_base_dindin<=9){
-									printf("\n||                             Seu Saldo È: %d R$                            ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                            ||", randomico_base_dindin);
 									Sleep(50);
 									}else if(randomico_base_dindin<=99&&randomico_base_dindin    >=10){
-									printf("\n||                             Seu Saldo È: %d R$                           ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                           ||", randomico_base_dindin);
 									Sleep(50);
 										
 									}else if(randomico_base_dindin<=999&&randomico_base_dindin   >=100){
-									printf("\n||                             Seu Saldo È: %d R$                          ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                          ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}else if(randomico_base_dindin<=9999&&randomico_base_dindin  >=1000){
-									printf("\n||                             Seu Saldo È: %d R$                         ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                         ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}else if(randomico_base_dindin<=99999&&randomico_base_dindin >=10000){
-									printf("\n||                             Seu Saldo È: %d R$                        ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                        ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}else if(randomico_base_dindin<=999999&&randomico_base_dindin>=100000){
-									printf("\n||                             Seu Saldo È: %d R$                       ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                       ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}else if(randomico_base_dindin<=9999999&&randomico_base_dindin>=1000000){
-									printf("\n||                             Seu Saldo È: %d R$                      ||", randomico_base_dindin);
+									printf("\n||                             Seu Saldo √©: %d R$                      ||", randomico_base_dindin);
 									Sleep(50);
 	
 									}
@@ -700,14 +700,14 @@ int main(void){
 										
 											printf("\n                    Horario: %d:%d:%d         ", hora, min, sec);	
 									}	
-									printf("\n                             Estilo da TransaÁ„o: CPF");
-									printf("\n  Nome de quem pagar·: %s", nome_do_participante);
+									printf("\n                             Estilo da Transa√ß√£o: CPF");
+									printf("\n  Nome de quem pagar√°: %s", nome_do_participante);
 									printf("                                               Saldo Inicial de Hoje: %d R$                       ", randomico_base_dindin);
 									printf("\n                                                                              ");
-									printf("\n  Nome de quem receber·: %d", resu_rand_nome);
+									printf("\n  Nome de quem receber√°: %d", resu_rand_nome);
 									printf("\n                                             Saldo Final: %d R$                      ", sobra_dindin);
 									printf("\n                                                                              ");
-									printf("\n  Quando esse dinheiro cair· na conta: em 3 horas no maximo                   ");
+									printf("\n  Quando esse dinheiro cair√° na conta: em 3 horas no maximo                   ");
 									printf("\n                                                                              ");
 									printf("\n------------------------------------------------------------------------------");									
 									abort();
@@ -723,58 +723,58 @@ int main(void){
 								Sleep(50);
 								printf("\n______________________________________________________________________________");
 								Sleep(50);
-								printf("\n||        Digite o N˙mero da conta na qual vocÍ quer passar esse pix:       ||");
+								printf("\n||        Digite o N√∫mero da conta na qual voc√™ quer passar esse pix:       ||");
 								Sleep(50);
 								Sleep(50);
-								printf("\n||                       sendo um telefone esse n˙mero                      ||");
+								printf("\n||                       sendo um telefone esse n√∫mero                      ||");
 							
 								printf("\n                                   ");
 								scanf("%d", pergunta_de_finalizacao);
-								printf("\n||                  A conta que vocÍ esta tentando transferir               ||");
+								printf("\n||                  A conta que voc√™ esta tentando transferir               ||");
 								Sleep(50);
 								
 								if(rand_de_nome==0){
-								printf("\n||                              …   do Robison                              ||");
+								printf("\n||                              √â   do Robison                              ||");
 								Sleep(50);
 
 								}else if(rand_de_nome==1){
-								printf("\n||                              …   do Daniel                               ||");
+								printf("\n||                              √â   do Daniel                               ||");
 								Sleep(50);
 							
 								}else if(rand_de_nome==2){
-								printf("\n||                              …   do Allan                                ||");
+								printf("\n||                              √â   do Allan                                ||");
 								Sleep(50);
 									
 								}else if(rand_de_nome==3){
-								printf("\n||                              …   do Arthur                               ||");
+								printf("\n||                              √â   do Arthur                               ||");
 								Sleep(50);
 									
 								}else if(rand_de_nome==4){
-								printf("\n||                              …   da Eli                                  ||");
+								printf("\n||                              √â   da Eli                                  ||");
 								Sleep(50);
 									
 								}else if(rand_de_nome==5){
-								printf("\n||                              …   da Paola                                ||");
+								printf("\n||                              √â   da Paola                                ||");
 								Sleep(50);
 									
 								}else if(rand_de_nome==6){
-								printf("\n||                              …   do GioBri                               ||");
+								printf("\n||                              √â   do GioBri                               ||");
 								Sleep(50);
 									
 								}else if(rand_de_nome==7){
-								printf("\n||                              …   da Laura                                ||");
+								printf("\n||                              √â   da Laura                                ||");
 								Sleep(50);
 									
 								}else if(rand_de_nome==8){
-								printf("\n||                              …   do Yhan                                 ||");
+								printf("\n||                              √â   do Yhan                                 ||");
 								Sleep(50);
 									
 								}else if(rand_de_nome==9){
-								printf("\n||                              …   do Lucena                               ||");
+								printf("\n||                              √â   do Lucena                               ||");
 								Sleep(50);
 									
 								}else if(rand_de_nome==10){
-								printf("\n||                              …   do Sanji                                ||");
+								printf("\n||                              √â   do Sanji                                ||");
 								Sleep(50);
 									
 								}
@@ -799,7 +799,7 @@ int main(void){
 									Sleep(50);
 									printf("\n||                Insira o sua senha para transferir o seu Dinheiro:        ||");
 									Sleep(50);
-									printf("\n||                          A acid È a senha inverÁa                        ||");
+									printf("\n||                          A acid √© a senha inver√ßa                        ||");
 									Sleep(50);
 									printf("\n||                                                                          ||");
 									Sleep(50);
@@ -807,7 +807,7 @@ int main(void){
 									Sleep(50);
 									printf("\n||                         Digite o seu PIN de 4 digitos                    ||");
 									Sleep(50);
-									printf("\n||                Digite o valor que ir· subtrair do valor total:\n\t\t\t\t\t");
+									printf("\n||                Digite o valor que ir√° subtrair do valor total:\n\t\t\t\t\t");
 									scanf("%d", &tentativa_senha_2);
 									Sleep(50);
 	
@@ -818,36 +818,36 @@ int main(void){
 										printf("\n||                     Sua conta foi achada com sucesso                     ||");
 										Sleep(50);
 										if(randomico_base_dindin<=9){
-										printf("\n||                             Seu Saldo È: %d R$                            ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                            ||", randomico_base_dindin);
 										Sleep(50);
 										}else if(randomico_base_dindin<=99&&randomico_base_dindin    >=10){
-										printf("\n||                             Seu Saldo È: %d R$                           ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                           ||", randomico_base_dindin);
 										Sleep(50);
 											
 										}else if(randomico_base_dindin<=999&&randomico_base_dindin   >=100){
-										printf("\n||                             Seu Saldo È: %d R$                          ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                          ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}else if(randomico_base_dindin<=9999&&randomico_base_dindin  >=1000){
-										printf("\n||                             Seu Saldo È: %d R$                         ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                         ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}else if(randomico_base_dindin<=99999&&randomico_base_dindin >=10000){
-										printf("\n||                             Seu Saldo È: %d R$                        ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                        ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}else if(randomico_base_dindin<=999999&&randomico_base_dindin>=100000){
-										printf("\n||                             Seu Saldo È: %d R$                       ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                       ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}else if(randomico_base_dindin<=9999999&&randomico_base_dindin>=1000000){
-										printf("\n||                             Seu Saldo È: %d R$                      ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                      ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}
 										printf("\n||                                                                          ||");
 										Sleep(50);
-										printf("\n||                      Quanto vocÍ ir· tirar dessa conta:\n\t\t\t\t\t");
+										printf("\n||                      Quanto voc√™ ir√° tirar dessa conta:\n\t\t\t\t\t");
 										scanf("%d", &sub_de_dindin);
 										Sleep(50);
 										
@@ -855,30 +855,30 @@ int main(void){
 										printf("\n||                                                                          ||");
 										Sleep(50);
 										if(randomico_base_dindin<=9){
-										printf("\n||                             Seu Saldo È: %d R$                            ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                            ||", randomico_base_dindin);
 										Sleep(50);
 										}else if(randomico_base_dindin<=99&&randomico_base_dindin    >=10){
-										printf("\n||                             Seu Saldo È: %d R$                           ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                           ||", randomico_base_dindin);
 										Sleep(50);
 											
 										}else if(randomico_base_dindin<=999&&randomico_base_dindin   >=100){
-										printf("\n||                             Seu Saldo È: %d R$                          ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                          ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}else if(randomico_base_dindin<=9999&&randomico_base_dindin  >=1000){
-										printf("\n||                             Seu Saldo È: %d R$                         ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                         ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}else if(randomico_base_dindin<=99999&&randomico_base_dindin >=10000){
-										printf("\n||                             Seu Saldo È: %d R$                        ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                        ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}else if(randomico_base_dindin<=999999&&randomico_base_dindin>=100000){
-										printf("\n||                             Seu Saldo È: %d R$                       ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                       ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}else if(randomico_base_dindin<=9999999&&randomico_base_dindin>=1000000){
-										printf("\n||                             Seu Saldo È: %d R$                      ||", randomico_base_dindin);
+										printf("\n||                             Seu Saldo √©: %d R$                      ||", randomico_base_dindin);
 										Sleep(50);
 		
 										}
@@ -983,14 +983,14 @@ int main(void){
 											
 												printf("\n                    Horario: %d:%d:%d         ", hora, min, sec);	
 										}	
-										printf("\n                             Estilo da TransaÁ„o: PIX");
-										printf("\n  Nome de quem pagar·: %s", nome_do_participante);
+										printf("\n                             Estilo da Transa√ß√£o: PIX");
+										printf("\n  Nome de quem pagar√°: %s", nome_do_participante);
 										printf("                                               Saldo Inicial de Hoje: %d R$                       ", randomico_base_dindin);
 										printf("\n                                                                              ");
-										printf("\n  Nome de quem receber·: %s", resu_rand_nome);
+										printf("\n  Nome de quem receber√°: %s", resu_rand_nome);
 										printf("\n                                             Saldo Final: %d R$                      ", sobra_dindin);
 										printf("\n                                                                              ");
-										printf("\n  Quando esse dinheiro cair· na conta: em 3 horas no maximo                   ");
+										printf("\n  Quando esse dinheiro cair√° na conta: em 3 horas no maximo                   ");
 										printf("\n                                                                              ");
 										printf("\n------------------------------------------------------------------------------");
 
@@ -1023,18 +1023,18 @@ int main(void){
 			printf("\n||                                                                          ||");
 			printf("\n||              Obrigado por escolher nosso banco de qualidade              ||");
 			printf("\n||                                                                          ||");
-			printf("\n||           Em seguida Por Gentileza digite o seu n˙mero do cart„o         ||");
-			printf("\n||                   Esse n˙mero deve conter 16 caracteres                  ||");
-			printf("\n||                    Divididos entre espaÁos entre eles                    ||");
+			printf("\n||           Em seguida Por Gentileza digite o seu n√∫mero do cart√£o         ||");
+			printf("\n||                   Esse n√∫mero deve conter 16 caracteres                  ||");
+			printf("\n||                    Divididos entre espa√ßos entre eles                    ||");
 			printf("\n||                 Exemplo: 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8                 ||\n\t\t        ");		
 			scanf("%d%d%d%d %d%d%d%d %d%d%d%d %d%d%d%d", &nu_cartao01, &nu_cartao02, &nu_cartao03, &nu_cartao04, &nu_cartao05, &nu_cartao06, &nu_cartao07, &nu_cartao08, &nu_cartao09, &nu_cartao10, &nu_cartao11, &nu_cartao12, &nu_cartao13, &nu_cartao14, &nu_cartao15, &nu_cartao16);
 			printf("\n||                                                                          ||");
-			printf("\n||                      Seu cart„o possui esses N˙meros:                    ||");
+			printf("\n||                      Seu cart√£o possui esses N√∫meros:                    ||");
 			printf("\n||                            %d%c%c%c %c%c%d%c %c%c%c%c %c%d%d%d                           ||", nu_cartao01, 35, 35, 35, 35, 35, nu_cartao07, 35, 35, 35, 35, 35, 35, nu_cartao14, nu_cartao15, nu_cartao16);
 			printf("\n||                                                                          ||");
 			printf("\n||                              Se Sim De Enter                             ||");
 			printf("\n||                                                                          ||");
-			printf("\n||                               Se N„o De Tab                              ||");
+			printf("\n||                               Se N√£o De Tab                              ||");
 			printf("\n||                                                                          ||");
 			printf("\n||                                                                          ||");
 			printf("\n||                                                                          ||");
@@ -1051,7 +1051,7 @@ int main(void){
 		
 		printf("\n______________________________________________________________________________");
 		printf("\n||                                                                          ||");
-		printf("\n||               E agora Por Favor digite o Seu PIN do cart„o               ||");
+		printf("\n||               E agora Por Favor digite o Seu PIN do cart√£o               ||");
 		printf("\n||                   Lembrando que um PIN possui 4 digitos                  ||");
 		printf("\n||                                                                          ||");
 		scanf("\n                                      %d", &pin);
@@ -1078,30 +1078,6 @@ int main(void){
 	}
 */
 
-//dizer o tipo de pagamento
-
-
-//dizer quanto È o pagamento
-
-//dizer se tem esse saldo no caixa eletronico
-
-
-//se sim entregar o dinheiro
-
-
-//se n„o perguntar se prefere receber parcial ou nada
-
-
-//mostrar o saldo restante
-
-
-//perguntar se deseja algo a mais 
-
-
-//se sim perguntar o que
-
-
-//se n„o fechar o caixa
 
 
 
